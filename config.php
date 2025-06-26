@@ -28,13 +28,13 @@ $premiumizeApiKey = '';
 // a local server and want to access it from other devices (firestick, android, etc. If so, specify
 // the server's local IP (e.g., '192.168.x.x') for network access. Leave this blank for default server
 // address or if installing on a public accessibe server.
-$userSetHost = '192.168.1.10'; // Example: 192.168.0.100 see the help file or video for more information.
+$userSetHost = ''; // Example: 192.168.0.100 see the help file or video for more information.
 
 // Note: The $HTTP_PROXY is utilized only during the scraping of direct movie links. This is particularly necessary if you are making a large number of requests to obtain streaming links, such as when running this script as a service. It is recommended to use backconnect proxies from providers like stormproxies.com to avoid being blocked by streaming websites.
 $HTTP_PROXY = "";
 
 //Enable or disable the $HTTP_PROXY setting.
-$USE_HTTP_PROXY = false;
+$USE_HTTP_PROXY = true;
 
 //When set to true your playist is created by running the 'create_playlist.php' and 'create_tv_playlist.php'
 //When set to false the the movie and tv show playlist will be loaded from github. The playlists on github 
@@ -55,10 +55,10 @@ $totalPages = 25; // Adjust this if needed
 $language = 'en-US'; // TMDB search setting (language)
 
 // Leave blank for any country to be included in the series playlist.
-$series_with_origin_country = 'US'; // TMDB search setting (with_origin_country)
+$series_with_origin_country = 'GB'; // TMDB search setting (with_origin_country)
 
 // Leave blank for any country to be included in the movies playlist.
-$movies_with_origin_country = 'US'; // TMDB search setting (with_origin_country)
+$movies_with_origin_country = 'GB'; // TMDB search setting (with_origin_country)
 
 // Leave this setting as false if you aren't intending on using Real-Debrid links.
 // set it to true if you want to use realdebrid when streaming torrents. 

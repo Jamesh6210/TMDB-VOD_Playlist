@@ -1,1 +1,5 @@
 https://vidfast.pro/movie/[[TMDB]]
+https://flickystream.net/player/movie/[[TMDB]]
+https://www.rgshows.me/?p=2&m=m-[[TMDB]]
+https://vidsrc.su/embed/movie/[[TMDB]]
+https://xprime.tv/watch/[[TMDB]]
