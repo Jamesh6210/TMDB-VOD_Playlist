@@ -1,4 +1,5 @@
-https://vidfast.pro/tv/[[TMDB]]/[[S]]/[[E]]
 https://vidsrc.su/embed/tv/[[TMDB]]/[[S]]/[[E]]
+https://nunflix.org/watch/tv/[[TMDB]]/[[S]]/[[E]]
 https://flickystream.net/player/tv/[[TMDB]]/[[S]]/[[E]]
 https://xprime.tv/watch/[[TMDB]]/[[S]]/[[E]]
+https://rivestream.org/watch?type=tv&id=[[TMDB]]&season=[[S]]&episode=[[E]]
